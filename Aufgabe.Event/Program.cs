@@ -11,7 +11,6 @@ namespace Aufgabe.Event
             Auto auto = new Auto(mensch);
 
             mensch.Herzinfarkt();
-            
         }
     }
 }

@@ -5,7 +5,7 @@ namespace Aufgabe.Event
     class Mensch
     {
         public event EventHandler<MyEventArgs> MyEvent;
-        public Smartphone smartphone;
+        private Smartphone smartphone;
 
         public Mensch(Smartphone smartphone)
         {
@@ -15,6 +15,10 @@ namespace Aufgabe.Event
         {
             Console.WriteLine("Fahrer hat Herzinfarkt");
             MyEvent.Invoke(this, new MyEventArgs("Subscriber wird ausgelöst!"));
+        }
+        public Smartphone GetSmartphone()
+        {
+            return smartphone;
         }
     }
 }

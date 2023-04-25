@@ -9,10 +9,9 @@ namespace Aufgabe.Event
         public Auto(Mensch mensch)
         {
             this.mensch = mensch;
+            this.mensch.MyEvent += this.mensch.GetSmartphone().Notruf;
             this.mensch.MyEvent += Warnblinklicht;
             this.mensch.MyEvent += RechtsRanFahren;
-            this.mensch.MyEvent += this.mensch.smartphone.Notruf;
-
         }
 
         public void Warnblinklicht(object sender, MyEventArgs e)
