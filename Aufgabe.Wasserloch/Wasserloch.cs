@@ -12,7 +12,7 @@
         }
         public void Besuchen(Tier tier)
         {
-            if (tier.GetType().Name.ToString() != "Raubkatze")
+            if (tier is not Raubkatze)
             {
                 besucher.Add(tier);
             }
