@@ -2,12 +2,15 @@
 {
     class Flasche
     {
-        public event EventHandler<MyEventArgs> MyEvent;
+        private string myString = "hier ist ein Beispiel";
+
+
+        public event EventHandler<AuslaufenEventArgs> OnAuslaufen;
         public void Auslaufen()
         {
             Console.WriteLine("Das hier kommt aus Flasche - Die Flasche läuft aus!");
-            MyEvent.Invoke(this, new MyEventArgs("Flasche.Auslaufen()", "geplatzt"));
-        }
+            OnAuslaufen?.Invoke(this, new AuslaufenEventArgs("Flasche.Auslaufen()", "geplatzt", myString));
+        }   
     }
 
 }

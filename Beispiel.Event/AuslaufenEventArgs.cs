@@ -1,14 +1,16 @@
 ﻿namespace Beispiel.Event
 {
-    class MyEventArgs : EventArgs
+    class AuslaufenEventArgs : EventArgs
     {
         private string operation;
         private string reason;
+        private string beispielText;
 
-        public MyEventArgs(string operation, string reason)
+        public AuslaufenEventArgs(string operation, string reason, string beispielText)
         {
             this.operation = operation;
             this.reason = reason;
+            this.beispielText = beispielText;
         }
         public string GetOperation()
         {
@@ -17,6 +19,10 @@
         public string GetReason()
         {
             return this.reason;
+        }
+        public string GetBeispielText()
+        {
+            return this.beispielText;
         }
     }
 

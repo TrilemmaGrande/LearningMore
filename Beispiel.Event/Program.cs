@@ -9,6 +9,7 @@
 
             Console.WriteLine("ist der Beutel trocken?");
             Console.WriteLine(beutel.GetDry());
+            beutel.EventInitialisieren();
             flasche.Auslaufen();
             Console.WriteLine("ist der Beutel trocken?");
             Console.WriteLine(beutel.GetDry());
