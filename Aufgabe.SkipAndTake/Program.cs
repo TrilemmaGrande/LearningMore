@@ -10,21 +10,17 @@
             PrintColl(numbers.TakeLast(5));
             PrintColl(numbers.Skip(3).SkipLast(3));
             PrintColl(numbers.TakeWhile(n => n != 22));
-            PrintColl(numbers.SkipWhile(n => n != 12));
+            PrintColl(numbers.SkipWhile(n => n != 12).Skip(1));
 
-            Console.WriteLine(new String('-',80));
+            Console.WriteLine(new String('-', 80));
             Console.WriteLine();
-            for (int i = 0; i < numbers.Length; i++)
-            {
-
-                int itemsPerPage = 5;
-                if (i == 0 || i % itemsPerPage == 0)
-                {
-                    Console.WriteLine("Page: " + ((i / itemsPerPage) + 1) + ":");
+            int itemsPerPage = 5;
+            for (int i = 0; i < numbers.Length; i += itemsPerPage)
+            {                
+                    Console.WriteLine("Page " + ((i / itemsPerPage) + 1) + ":");
                     Console.WriteLine();
                     PrintColl(numbers.Skip(i).SkipLast(numbers.Length - i - itemsPerPage));
-                    Console.WriteLine();
-                }
+                    Console.WriteLine();                
             }
             Console.WriteLine(new String('-', 80));
 
@@ -34,7 +30,7 @@
                 foreach (T item in coll)
                 {
                     Console.Write(item);
-                    if (!item.Equals(coll.LastOrDefault()))
+                    if (!item.GetHashCode().Equals(coll.LastOrDefault()))
                     {
                         Console.Write(", ");
                     }
