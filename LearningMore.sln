@@ -47,13 +47,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aufgabe.Streams", "Aufgabe.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20230511", "20230511", "{1C389926-77FE-49A5-9EF4-DBE0736A6FBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.SerializerBinaryFormatter", "Beispiel.Serializer.BinaryFormatter\Beispiel.SerializerBinaryFormatter.csproj", "{56C8F6D8-D484-4250-9D89-44B9C0656354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beispiel.SerializerBinaryFormatter", "Beispiel.Serializer.BinaryFormatter\Beispiel.SerializerBinaryFormatter.csproj", "{56C8F6D8-D484-4250-9D89-44B9C0656354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.SerializerXML", "Beispiel.SerializerXML\Beispiel.SerializerXML.csproj", "{BFB0FD10-CB4C-442D-A6C4-ECC26BF60553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beispiel.SerializerXML", "Beispiel.SerializerXML\Beispiel.SerializerXML.csproj", "{BFB0FD10-CB4C-442D-A6C4-ECC26BF60553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.SerializerJSON", "Beispiel.SerializerJSON\Beispiel.SerializerJSON.csproj", "{41CD948C-263C-4F94-A17A-29A271A3E097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beispiel.SerializerJSON", "Beispiel.SerializerJSON\Beispiel.SerializerJSON.csproj", "{41CD948C-263C-4F94-A17A-29A271A3E097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe.Serializer", "Aufgabe.Serializer\Aufgabe.Serializer.csproj", "{5D876F5C-FE75-47FE-8305-56EFFCA9E9A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aufgabe.Serializer", "Aufgabe.Serializer\Aufgabe.Serializer.csproj", "{5D876F5C-FE75-47FE-8305-56EFFCA9E9A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20230531", "20230531", "{92D21029-C34C-47CB-814B-E3F06D544C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.SimpleCalculator", "SimpleCalculator\Beispiel.SimpleCalculator.csproj", "{A062B890-F045-4B90-AAFE-D27DD14850CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.SimpleCalculator.Test", "Beispiel.SimpleCalculator.Test\Beispiel.SimpleCalculator.Test.csproj", "{31DB1FC4-AE57-491C-B10A-6E2D1F23191C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +139,14 @@ Global
 		{5D876F5C-FE75-47FE-8305-56EFFCA9E9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D876F5C-FE75-47FE-8305-56EFFCA9E9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D876F5C-FE75-47FE-8305-56EFFCA9E9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A062B890-F045-4B90-AAFE-D27DD14850CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A062B890-F045-4B90-AAFE-D27DD14850CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A062B890-F045-4B90-AAFE-D27DD14850CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A062B890-F045-4B90-AAFE-D27DD14850CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DB1FC4-AE57-491C-B10A-6E2D1F23191C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DB1FC4-AE57-491C-B10A-6E2D1F23191C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DB1FC4-AE57-491C-B10A-6E2D1F23191C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DB1FC4-AE57-491C-B10A-6E2D1F23191C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +170,8 @@ Global
 		{BFB0FD10-CB4C-442D-A6C4-ECC26BF60553} = {1C389926-77FE-49A5-9EF4-DBE0736A6FBB}
 		{41CD948C-263C-4F94-A17A-29A271A3E097} = {1C389926-77FE-49A5-9EF4-DBE0736A6FBB}
 		{5D876F5C-FE75-47FE-8305-56EFFCA9E9A1} = {1C389926-77FE-49A5-9EF4-DBE0736A6FBB}
+		{A062B890-F045-4B90-AAFE-D27DD14850CA} = {92D21029-C34C-47CB-814B-E3F06D544C96}
+		{31DB1FC4-AE57-491C-B10A-6E2D1F23191C} = {92D21029-C34C-47CB-814B-E3F06D544C96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5917565-66A1-40A6-9F63-915A85A6D381}
