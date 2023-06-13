@@ -7,16 +7,19 @@ namespace Aufgabe.Traumschiff
     {
         static void Main(string[] args)
         {
+            Thread.Sleep(100);
             for (int i = 0; i < Console.WindowWidth; i++)
             {
                 for (int j = 0; j < Console.WindowHeight; j++)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.Write('~');
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
             }
-            Traumschiff ts1 = new Traumschiff("\\___/");
-            Traumschiff ts2 = new Traumschiff("\\___/");
-            Traumschiff ts3 = new Traumschiff("\\___/");
+            Traumschiff ts1 = new Traumschiff("\\___/", ConsoleColor.Red);
+            Traumschiff ts2 = new Traumschiff("\\___/", ConsoleColor.Blue);
+            Traumschiff ts3 = new Traumschiff("\\___/", ConsoleColor.Green);
             Thread thread1 = new Thread(ts1.MoveAround);
             Thread thread2 = new Thread(ts2.MoveAround);
             Thread thread3 = new Thread(ts3.MoveAround);
