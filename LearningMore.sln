@@ -73,15 +73,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aufgabe.Traumschiff", "Aufg
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20230614", "20230614", "{2EC204BA-0FCD-46A5-A308-175B8E16D4F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.Tasks", "Beispiel.Tasks\Beispiel.Tasks.csproj", "{925DBF7C-DD64-4F69-93CC-4F03A94A41FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beispiel.Tasks", "Beispiel.Tasks\Beispiel.Tasks.csproj", "{925DBF7C-DD64-4F69-93CC-4F03A94A41FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.Tasks2", "Beispiel.Tasks2\Beispiel.Tasks2.csproj", "{56C69D1E-0C13-42EE-BFDC-EB6640276C09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beispiel.Tasks2", "Beispiel.Tasks2\Beispiel.Tasks2.csproj", "{56C69D1E-0C13-42EE-BFDC-EB6640276C09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.Parallels", "Beispiel.Parallel\Beispiel.Parallels.csproj", "{534520CC-15BE-4DF1-8A3B-7245D754D3A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beispiel.Parallels", "Beispiel.Parallel\Beispiel.Parallels.csproj", "{534520CC-15BE-4DF1-8A3B-7245D754D3A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.Parallels2", "Beispiel.Parallels2\Beispiel.Parallels2.csproj", "{E88334C5-4323-4335-BC11-16926C642A47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beispiel.Parallels2", "Beispiel.Parallels2\Beispiel.Parallels2.csproj", "{E88334C5-4323-4335-BC11-16926C642A47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beispiel.AsyncAwait", "Beispiel.AsyncAwait\Beispiel.AsyncAwait.csproj", "{9C07C99D-9E97-4B2B-AC1E-70070D509AD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beispiel.AsyncAwait", "Beispiel.AsyncAwait\Beispiel.AsyncAwait.csproj", "{9C07C99D-9E97-4B2B-AC1E-70070D509AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe.Breakfast", "Aufgabe.Fruehstueck\Aufgabe.Breakfast.csproj", "{8819A27A-AA41-45B1-A2A8-FE5E0B3029D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +207,10 @@ Global
 		{9C07C99D-9E97-4B2B-AC1E-70070D509AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C07C99D-9E97-4B2B-AC1E-70070D509AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C07C99D-9E97-4B2B-AC1E-70070D509AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8819A27A-AA41-45B1-A2A8-FE5E0B3029D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8819A27A-AA41-45B1-A2A8-FE5E0B3029D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8819A27A-AA41-45B1-A2A8-FE5E0B3029D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8819A27A-AA41-45B1-A2A8-FE5E0B3029D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +245,7 @@ Global
 		{534520CC-15BE-4DF1-8A3B-7245D754D3A2} = {2EC204BA-0FCD-46A5-A308-175B8E16D4F2}
 		{E88334C5-4323-4335-BC11-16926C642A47} = {2EC204BA-0FCD-46A5-A308-175B8E16D4F2}
 		{9C07C99D-9E97-4B2B-AC1E-70070D509AD6} = {2EC204BA-0FCD-46A5-A308-175B8E16D4F2}
+		{8819A27A-AA41-45B1-A2A8-FE5E0B3029D9} = {2EC204BA-0FCD-46A5-A308-175B8E16D4F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5917565-66A1-40A6-9F63-915A85A6D381}
