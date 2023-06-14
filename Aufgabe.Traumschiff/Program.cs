@@ -7,7 +7,8 @@ namespace Aufgabe.Traumschiff
     {
         static void Main(string[] args)
         {
-            Thread.Sleep(100);
+            Console.Read();
+            Console.CursorVisible = false;
             for (int i = 0; i < Console.WindowWidth; i++)
             {
                 for (int j = 0; j < Console.WindowHeight; j++)

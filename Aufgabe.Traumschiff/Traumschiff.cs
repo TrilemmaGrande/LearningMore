@@ -109,7 +109,7 @@ namespace Aufgabe.Traumschiff
                         if (i == Name.Length / 2)
                         {
                             Console.ForegroundColor = ConsoleColor.DarkCyan;
-                            Console.Write('~');
+                            Console.Write(' ');
                             Console.ForegroundColor = ConsoleColor.White;
                         }
                         else
